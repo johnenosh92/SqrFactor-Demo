@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Discussions</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+
+<div class="container">
+	<!-- THIS IS THE HEADER SECTION -->
+	<header>
+		<div class="headerLeft col-xs-12 col-sm-12 col-md-10 ">
+			<div id="sec1  col-md-8">
+			<div class="col-md-1 col-xs-12" ><img id="logo" src="logo.jpg"></img></div>
+			<div class="topMenu col-md-3 col-xs-12"><a href="#"><span id="menu1">Find Competition</span></a></div>
+			<div class="topMenu col-md-2 col-xs-12"><a href="#"><span id="menu2">Announcement</span></a></div>
+			<div class="topMenu col-md-2 col-xs-12"><a href="#"><span id="menu3">Find Friends</span></a></div>
+			</div>
+
+			<div id="searchIcon" class="col-md-4"><input   type="text" placeholder="Search Page.." id="searchPage"><i class="fas fa-search" id="IconP"></i></div>
+		</div>
+		<div class="headerRight col-xs-12 col-sm-12 col-md-2">
+			<i class="fas fa-envelope iconH"></i>
+			<i class="fas fa-bell iconH"></i>
+			<img src="vince.png" id="userPhoto"></img>
+		</div>
+	</header><!-- END OF HEADER -->
+	<!-- 3  MENU BUTTONS -->
+	<div class="menuButtonsDiv col-md-4">
+		<button class="btn btn-default menuButtons" >News Feed</button>
+	</div>
+	<div class="menuButtonsDiv col-md-4">
+		<button class="btn btn-default menuButtons" >Discussion Board</button>
+	</div>
+	<div class="menuButtonsDiv col-md-4">
+		<button class="btn btn-default menuButtons" >What's Red</button>
+	</div>
+	<!-- THE SIDEBAR -->
+	<div class="col-md-3" id="sideBar">
+		<div class="col-md-12">
+			<form class="form">
+				<input   type="text" placeholder="Search Topic.." id="searchTopic">
+			</form>
+			<i class="fas fa-search" id="iconST"></i>
+		</div>
+			
+		<table class="table table-bordered col-md-12">
+			<tr><th>Related Questions</th></tr>
+			<tr><td>What are the best resources for acrchitectural design processes?</th></tr>
+			<tr><td>What are the best architecture designs?</td></tr>
+		</table>
+	</div><!-- END OF SIDEBAR -->
+
+	<div class="col-md-9" id="article">
+		<h3>Ask Question</h3>
+		<div id="questionBox" >
+			<div id="questionBox1">
+			<div class="col-md-1 col-sm-1 col-xs-2"><img  src="vince.png" id="userPhoto2" ></img></div>
+			
+			<div class="col-md-11 col-xs-10 col-sm-11"><textarea class="form-control " rows="5" id="thoughts" placeholder="Share what you are thinking here..." rows="5" "></textarea></div>
+		</div>
+		<div id="questionBottom">
+			<div class="col-xs-12 col-sm-9"><i class="fas fa-camera" id="iconQ"></i>
+				<i class="fas fa-tags"  id="iconQ"></i>
+				<input type="text" placeholder="Enter Keyword for tag.." id="enterTag"></input>
+			</div>
+			<div class="col-sm-3 col-xs-12"><button class="btn btn-danger" id="postQ">Post Question</button></div>
+		</div>
+
+		</div>
+	</div><!-- END OF ARTICLE -->
+
+
+	<div class="col-md-9" id="article2">
+		
+		<div id="FAQ1" >
+			<div class="FAQinside1">
+				<div id="ques1"><h4><b>What are the cool architectural design ideas for new homes?</b></h4></div>
+				<div id="ans1"><span id="dateAnswer">March 2 at 9:00 AM <b> By Agnim Gupta</b></span> 
+					<p>Egestas mollitia quos metus natus assumenda ullam suscipit ultricies. Voluptas, nihil natoque elementum error ligula exercitationem aliquid tempor mauris penatibus. Suspendisse! Rutrum volutpat adipiscing nascetur cras conubia cupidatat!</p>
+				</div>
+				<div class="FAQinside2">
+					<i class="fas fa-thumbs-up" id="iconQ"></i><span>16 likes</span>
+					<i class="fas fa-comments"  id="iconQ"></i><span>16 comments</span>
+					<i class="fas fa-share" id="iconQ"></i><span>share</span>
+				</div>
+			</div>
+
+		</div>
+	</div><!-- END OF ARTICLE2 -->
+
+	<div class="col-md-9" id="article3">
+		<div id="FAQ2" >
+			<div class="FAQinside21">
+				<div id="ques2"><h4><b>How is cubic architecture different from architectural styles?</b></h4></div>
+				<div id="ans2"><span id="dateAnswer">March 2 at 9:00 AM <b> By Agnim Gupta</b></span> 
+				<p>Egestas mollitia quos metus natus assumenda ullam suscipit ultricies. Voluptas, nihil natoque elementum error ligula exercitationem aliquid tempor mauris penatibus. Suspendisse! Rutrum volutpat adipiscing nascetur cras conubia cupidatat!</p>
+				</div>
+				<div class="FAQinside22">
+					<i class="fas fa-thumbs-up" id="iconQ"></i><span>16 likes</span>
+					<i class="fas fa-comments"  id="iconQ"></i><span>16 comments</span>
+					<i class="fas fa-share" id="iconQ"></i><span>share</span>
+				</div>
+			</div>
+
+		</div>
+	</div><!-- END OF ARTICLE3 -->
+</div><!-- END OF CONTAINER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+</body>
+
+</html>
